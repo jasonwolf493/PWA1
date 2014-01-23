@@ -58,7 +58,7 @@ if(day >= 1){
 
 };
 
-alert("You have finished entering your data. Please see the results below.\n")
+alert("You have finished entering your data. Please see the results below.\nYou spend " + work + " hours a day at work." + "\nYou spend " + school + " hours a day at school." + "\nYou spend " + breakfast + " hours a day on breakfast." + "\nYou spend " + lunch + " hours a day on lunch." + "\nYou spend " + dinner + " hours a day on dinner." + "\nYou spend " + travel + " hours a day traveling." + "\nYou spend " + sleep + " hours a day sleeping." + "\nYou spend " + other + " hours a day on unlisted activities." + "\nYou have a total of " + day + " unused hours a day.");
 
 
 
