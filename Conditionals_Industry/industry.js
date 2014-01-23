@@ -11,6 +11,10 @@ if(indexPage && cascadingStyleSheet && javaScript && imageFolder){
 
 console.log("all is working");
 console.log("Index page found: " + indexPage);
+console.log("CSS found: " + cascadingStyleSheet);
+console.log("Java Script found: " + javaScript);
+console.log("image folder found: " + imageFolder);
+alert("Nothing appears to be missing \nYou should still double check all of your files.")
 }else{
 console.log("not working");
 
