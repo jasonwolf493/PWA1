@@ -11,6 +11,7 @@ var lunch = 8;
 var dinner = 8;
 var travel = 8;
 var sleep = 8;
+var other = 8;
 var day = 24;
 
 if(day >= 1){
@@ -25,7 +26,7 @@ if(day >= 1){
     if(day >= 1){
         var breakfast = prompt("How many hours a day do you work on breakfast? If you have breakfast at work enter 0.\nYou have " + day + " hours available.");
         var day = day - breakfast;
-    }else{alert("You have no more time left in the day.");};
+    }else{alert("You have no more time left in the day.");}
 
     if(day >= 1){
         var lunch = prompt("How many hours a day do take for lunch? If you have lunch at work enter 0.\nYou have " + day + " hours available.");
@@ -47,11 +48,17 @@ if(day >= 1){
         var day = day - sleep;
     }else{alert("You have no more time left in the day.");}
 
+    if(day >= 1){
+        var other = prompt("How many hours a day do you spend on things that were not listed?\nYou have " + day + " hours available.");
+        var day = day - other;
+    }else{alert("You have no more time left in the day.");};
 
 }else{
     alert("You have no more time left in the day.");
 
 };
+
+alert("You have finished entering your data. Please see the results below.\n")
 
 
 
