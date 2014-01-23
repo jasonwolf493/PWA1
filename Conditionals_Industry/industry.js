@@ -2,10 +2,11 @@
  * Created by jasonwolf on 1/16/14.
  */
 /* Website Build validator.... makes sure there are no files left out of a final web build */
+/* CHANGE THE VARS BELOW TO SEE HOW THE PROGRAM WORKS AND TO SEE THE DIFFERENT ALERTS YOU WILL GET...*/
 var indexPage = true;
 var cascadingStyleSheet = true;
 var javaScript = false;
-var imageFolder = true;
+var imageFolder = false;
 
 if(indexPage && cascadingStyleSheet && javaScript && imageFolder){
 
