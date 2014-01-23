@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f0d4858-4ba4-4777-ac56-e8853cd1d074" name="Default" comment="" />
+    <list default="true" id="4f0d4858-4ba4-4777-ac56-e8853cd1d074" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conditionals_Personal/personal.js" afterPath="$PROJECT_DIR$/Conditionals_Personal/personal.js" />
+    </list>
     <ignored path="javascript.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +46,7 @@
       <file leaf-file-name="personal.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conditionals_Personal/personal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="4" selection-start="466" selection-end="466" vertical-scroll-proportion="0.3156146" vertical-offset="0" max-vertical-offset="903">
+            <state line="46" column="29" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.7752809" vertical-offset="0" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
@@ -500,7 +502,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Conditionals_Personal/personal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="466" selection-end="466" vertical-scroll-proportion="0.3156146" vertical-offset="0" max-vertical-offset="903">
+        <state line="46" column="29" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.7752809" vertical-offset="0" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
