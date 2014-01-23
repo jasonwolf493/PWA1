@@ -4,7 +4,7 @@
 /* Website Build validator.... makes sure there are no files left out of a final web build */
 var indexPage = true;
 var cascadingStyleSheet = true;
-var javaScript = true;
+var javaScript = false;
 var imageFolder = true;
 
 if(indexPage && cascadingStyleSheet && javaScript && imageFolder){
