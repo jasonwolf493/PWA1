@@ -48,7 +48,7 @@
       <file leaf-file-name="personal.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/function_personal/personal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="105" selection-start="567" selection-end="567" vertical-scroll-proportion="0.28957528" vertical-offset="0" max-vertical-offset="915">
+            <state line="10" column="0" selection-start="362" selection-end="404" vertical-scroll-proportion="0.17374517" vertical-offset="15" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -519,15 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/function_industry/industry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_worksheet/Expressions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="32" selection-start="1362" selection-end="1362" vertical-scroll-proportion="1.2945026" vertical-offset="286" max-vertical-offset="1380">
@@ -556,9 +547,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/function_industry/industry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/function_personal/personal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="105" selection-start="567" selection-end="567" vertical-scroll-proportion="0.28957528" vertical-offset="0" max-vertical-offset="915">
+        <state line="10" column="0" selection-start="362" selection-end="404" vertical-scroll-proportion="0.17374517" vertical-offset="15" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
