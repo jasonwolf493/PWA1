@@ -13,14 +13,14 @@ function reminder(date, time, plans){
 //morning plans
 var morning = prompt("do you have plans for the morning?");
 if(morning == "yes"){
-    var c = prompt("What are your plans for the morning?");
+    var c = prompt("What are your plans for the morning?");            //What the plan for the morning is
     var setReminder = prompt("would you like to set a reminder for the morning event?\nyes or no");
     if(setReminder == "yes"){
-        var a = prompt("What will the date be for your event?");
-        var b = prompt("What will the time for the event be?");
+        var a = prompt("What will the date be for your event?");      //date of event
+        var b = prompt("What will the time for the event be?");       //Time of event
         reminder(a, b, c);
     }else{
-        setReminder = false;
+        setReminder = false;                        // resets setReminder to false
     }
 }else{}
 

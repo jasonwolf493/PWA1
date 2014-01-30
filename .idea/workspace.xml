@@ -48,7 +48,7 @@
       <file leaf-file-name="personal.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/function_personal/personal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="87" selection-start="131" selection-end="131" vertical-scroll-proportion="0.057915058" vertical-offset="0" max-vertical-offset="915">
+            <state line="15" column="105" selection-start="567" selection-end="567" vertical-scroll-proportion="0.28957528" vertical-offset="0" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -107,8 +107,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-39" />
-    <option name="y" value="345" />
+    <option name="x" value="-15" />
+    <option name="y" value="69" />
     <option name="width" value="1440" />
     <option name="height" value="874" />
   </component>
@@ -317,7 +317,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-39" y="345" width="1440" height="874" extended-state="0" />
+    <frame x="-15" y="69" width="1440" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -558,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/function_personal/personal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="87" selection-start="131" selection-end="131" vertical-scroll-proportion="0.057915058" vertical-offset="0" max-vertical-offset="915">
+        <state line="15" column="105" selection-start="567" selection-end="567" vertical-scroll-proportion="0.28957528" vertical-offset="0" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
