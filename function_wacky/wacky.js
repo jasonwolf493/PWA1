@@ -2,13 +2,39 @@
  * Created by jasonwolf on 1/16/14.
  */
 //blob factory
-alert("There is an extreme shortage on blobs please fix this!\nBut remember blobs are very unstable, we don't want too many.");
-var secretBlobAmounts = [1, 32, 43,12,13,54,34,21,32,12,76];
-var boxNum = prompt("Go to the stock room and grab a box of ooze, they are labeled 0-10\nWhat one did you grab?");
-var secretBlobAmounts=secretBlobAmounts[boxNum];
-console.log(secretBlobAmounts);
-alert("You open the box of ooze to find "+secretBlobAmounts+"OZs of ooze. You pour the ooze into the blob generator...");
-var machineSetting = prompt("Select a number from 1-100 on the  machine's dial:");
-var numOfBlobs = secretBlobAmounts * 5 / boxNum + machineSetting;
-alert("You press the start button on the machine begin plopping little ooze balls on to the belt it slowly moves forward where it gets its little black pearly eyeballs injected into it.");
-alert("The blobs get pumped up a clear tube into a big clear silo. But suddenly they begin to divide and multiply. The whole factory is swelling with blobs. It suddenly explodes sending the "+numOfBlobs+" That you created all over the city.");
+
+    function blobSweeper(sweepRotation, speed){
+
+        if(sweepRotation > 50){
+            alert("The sweeper rotation speed is" + sweepRotation + " and this is too fast, slime is going everywhere!");
+        }
+
+        if(sweepRotation < 50){
+            alert("The sweeper rotation speed of " + sweepRotation + " is too slow the slime are slipping away." );
+        }
+
+        if(sweepRotation == 50){
+            alert("The sweeper rotation speed is set perfectly.");
+        }
+
+        if(speed < 50){
+            alert("The speed of the sweeper is set at "+speed+" and you are blocking traffic.");
+        }
+
+        if(speed > 50){
+            alert("The speed of the sweeper is set at "+speed+" and you are speeding and not getting any slime.");
+        }
+
+        if(speed == 50){
+            alert("The speed of the sweeper is set at "+speed+". What a perfect speed, the blobs can't roll away fast enough.");
+        }
+
+    }
+alert("The mayor of the city has forced you to clean up the mess you have made because of the blob factory.\nHe has been generous enough to provide you with a street sweeper.\nBut you'll have to learn to set the controls yourself.");
+
+do{
+    var b = prompt("The dial on the sweeper rotation is 0-100\nWhat do you turn it to?");
+    var c = prompt("How fast will you be going?\n0-100SPH(slimes per hour)");
+    var a = blobSweeper(b, c);
+}while(true);
+
