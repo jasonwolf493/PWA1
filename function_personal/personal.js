@@ -8,7 +8,7 @@ function reminder(date, time, plans){
 
 
 //morning plans
-var morning = prompt("do you have plans for the morning?")
+var morning = prompt("do you have plans for the morning?");
 
 if(morning == "yes"){
 
@@ -25,7 +25,7 @@ if(morning == "yes"){
 
 
 //Afternoon plans
-var afternoon = prompt("do you have plans for the afternoon?")
+var afternoon = prompt("do you have plans for the afternoon?");
 
 if(afternoon == "yes"){
 
