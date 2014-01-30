@@ -26,32 +26,43 @@ while(repeat == "yes"){
     }else{}
 }
 
+
+var repeat = "yes"
+while(repeat == "yes"){
 //Afternoon plans
-var afternoon = prompt("do you have plans for the afternoon?");
-if(afternoon == "yes"){
-    var c = prompt("What are your plans for the afternoon?");
-    var setReminder = prompt("would you like to set a reminder for the afternoon event?\nyes or no");
-    if(setReminder == "yes"){
-        var a = prompt("What will the date be for your event?");
-        var b = prompt("What will the time for the event be?");
-        reminder(a, b, c);
-    }else{
-        setReminder = false;
-    }
-}else{}
+    var afternoon = prompt("do you have plans for the afternoon?");
+    if(afternoon == "yes"){
+        var c = prompt("What are your plans for the afternoon?");
+        var setReminder = prompt("would you like to set a reminder for the afternoon event?\nyes or no");
+        if(setReminder == "yes"){
+            var a = prompt("What will the date be for your event?");
+            var b = prompt("What will the time for the event be?");
+            reminder(a, b, c);
+            var repeat = prompt("would you like to add another event?");
+        }else{
+            setReminder = false;
+        }
+    }else{}
+}
 
+
+
+var repeat = "yes"
+while(repeat == "yes"){
 //Night plans
-var night = prompt("do you have plans for the night?")
+    var night = prompt("do you have plans for the night?")
 
-if(night == "yes"){
+    if(night == "yes"){
 
-    var c = prompt("What are your plans for the night?");
-    var setReminder = prompt("would you like to set a reminder for the night event?\nyes or no");
-    if(setReminder == "yes"){
-        var a = prompt("What will the date be for your event?");
-        var b = prompt("What will the time for the event be?");
-        reminder(a, b, c);
-    }else{
-        setReminder = false;
-    }
-}else{}
+        var c = prompt("What are your plans for the night?");
+        var setReminder = prompt("would you like to set a reminder for the night event?\nyes or no");
+        if(setReminder == "yes"){
+            var a = prompt("What will the date be for your event?");
+            var b = prompt("What will the time for the event be?");
+            reminder(a, b, c);
+            var repeat = prompt("would you like to add another event?");
+        }else{
+            setReminder = false;
+        }
+    }else{}
+}
