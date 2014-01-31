@@ -32,13 +32,15 @@ function updateChecker(files){
 }
 
 alert("Welcome to System Analyzer Pro(SAP)");
-var action = prompt("What would you like SAP to run?\n update checker or backup")
-if(action == "update checker"){
-    updateChecker(files);
-}
-if(action == "backup"){
-    backup(files);
-}
-if(action == "exit" || "quit"){
-    alert("Thank you for choosing SAP!");
+while(action != "exit" || "quit"){
+    var action = prompt("What would you like SAP to run?\n update checker, backup or quit");
+    if(action == "update checker"){
+        updateChecker(files);
+    }
+    if(action == "backup"){
+        backup(files);
+    }
+    if(action == "exit" || "quit"){
+        alert("Thank you for choosing SAP!");
+    }
 }
