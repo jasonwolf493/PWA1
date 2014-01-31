@@ -30,4 +30,13 @@ function updateChecker(files){
         }
     }
 }
+
+alert("Welcome to System Analyzer Pro(SAP)");
+var action = prompt("What would you like SAP to run?\n update checker or backup")
+if(action == "update checker"){
+    updateChecker(files);
+}
+if(action == "backup"){
+    backup(files)
+}
 updateChecker(files);
