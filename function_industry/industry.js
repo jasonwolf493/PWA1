@@ -39,3 +39,6 @@ if(action == "update checker"){
 if(action == "backup"){
     backup(files);
 }
+if(action == "exit" || "quit"){
+    alert("Thank you for choosing SAP!");
+}
