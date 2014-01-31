@@ -11,8 +11,9 @@ function backup(files){
 var uploaded = 0;
     while(files >= 1){
     uploaded++;
+    files--;
     console.log(uploaded+" files were uploaded to the server "+files+" Remaining");
-        files--;
+
     }
 }
 backup(files);

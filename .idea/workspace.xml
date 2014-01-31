@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f0d4858-4ba4-4777-ac56-e8853cd1d074" name="Default" comment="" />
+    <list default="true" id="4f0d4858-4ba4-4777-ac56-e8853cd1d074" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/function_industry/industry.js" afterPath="$PROJECT_DIR$/function_industry/industry.js" />
+    </list>
     <ignored path="javascript.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +28,7 @@
       <file leaf-file-name="industry.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/function_industry/industry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="11" selection-start="104" selection-end="104" vertical-scroll-proportion="0.15444015" vertical-offset="0" max-vertical-offset="777">
+            <state line="13" column="4" selection-start="190" selection-end="190" vertical-scroll-proportion="0.25096524" vertical-offset="0" max-vertical-offset="777">
               <folding />
             </state>
           </provider>
@@ -552,7 +554,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/function_industry/industry.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="11" selection-start="104" selection-end="104" vertical-scroll-proportion="0.15444015" vertical-offset="0" max-vertical-offset="777">
+        <state line="13" column="4" selection-start="190" selection-end="190" vertical-scroll-proportion="0.25096524" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
       </provider>
