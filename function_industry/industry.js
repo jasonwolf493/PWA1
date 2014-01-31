@@ -37,6 +37,5 @@ if(action == "update checker"){
     updateChecker(files);
 }
 if(action == "backup"){
-    backup(files)
+    backup(files);
 }
-updateChecker(files);
