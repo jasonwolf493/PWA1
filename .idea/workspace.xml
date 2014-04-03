@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f0d4858-4ba4-4777-ac56-e8853cd1d074" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WK1/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/WK1/index.html" />
     </list>
     <ignored path="javascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,9 +35,9 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/WK1/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753">
+            <state line="6" column="33" selection-start="84" selection-end="84" vertical-scroll-proportion="0.119521916" vertical-offset="0" max-vertical-offset="753">
               <folding />
             </state>
           </provider>
@@ -77,8 +77,8 @@
         <option value="$USER_HOME$/Desktop/wolf_jason_assignment/index.html" />
         <option value="$USER_HOME$/Desktop/wolf_jason_assignment/style.css" />
         <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -131,6 +131,10 @@
               <option name="myItemId" value="PWA1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WK1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -154,8 +158,8 @@
       <recent name="$PROJECT_DIR$/Expressions_Wacky" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/WK1" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
@@ -278,9 +282,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/WK1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
+        <state line="6" column="33" selection-start="84" selection-end="84" vertical-scroll-proportion="0.119521916" vertical-offset="0" max-vertical-offset="753">
           <folding />
         </state>
       </provider>
