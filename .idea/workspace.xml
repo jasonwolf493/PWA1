@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f0d4858-4ba4-4777-ac56-e8853cd1d074" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/WK1/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/fight_bg.png" afterPath="$PROJECT_DIR$/WK1/images/fight_bg.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/grey_wash_wall.png" afterPath="$PROJECT_DIR$/WK1/images/grey_wash_wall.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/WK1/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/WK1/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="javascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WK1/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="81" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.30501932" vertical-offset="483" max-vertical-offset="1260">
+            <state line="48" column="81" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1260">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="65" selection-start="569" selection-end="569" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="630">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="753">
               <folding />
             </state>
           </provider>
@@ -132,21 +128,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WK1" />
+              <option name="myItemId" value="PWA1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -161,7 +143,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Jasonwolf goal 1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -172,12 +154,20 @@
       <recent name="$PROJECT_DIR$/Expressions_Wacky" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/WK1" />
       <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -188,23 +178,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -282,16 +264,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/WK1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="65" selection-start="569" selection-end="569" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="630">
+        <state line="48" column="81" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1260">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WK1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="81" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.30501932" vertical-offset="483" max-vertical-offset="1260">
+        <state line="48" column="81" selection-start="1249" selection-end="1249" vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="1260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
           <folding />
         </state>
       </provider>
