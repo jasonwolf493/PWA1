@@ -18,8 +18,7 @@
     var roundText = document.getElementById("round");
     var button = document.getElementById("fight_btn");
 
-    roundText.innerHTML="fdsafdsafdsfad";
-
+    roundText.innerHTML=fighters[0].name+" VS "+fighters[1].name;
 
     button.addEventListener("click", fight, false);
 
@@ -28,10 +27,12 @@
     function fight(){
         console.log("in the fight function");
 
+
+
+        console.log(round);
         //alert player info to the screen... health and names
         alert(fighters[0].name+":"+fighters[0].health+" *Start* "+fighters[1].name+":"+fighters[1].health);
         //start a loop for the fight... don't go over 10 rounds
-        for(var i=0; i< 10; i++){
 
             //create minimum damage vars for each player
             var minDamage1 = fighters[0].damage * .5;
@@ -57,16 +58,18 @@
                 //add to round number
                 round++;
                 // send info to user
-                alert(fighters[0].name+":"+fighters[0].health+" Round "+round+" is over "+fighters[1].name+":"+fighters[1].health);
+
+                fighter1text.innerHTML=fighters[0].name+": "+fighters[0].health;
+               // alert(fighters[0].name+":"+fighters[0].health+" Round "+round+" is over "+fighters[1].name+":"+fighters[1].health);
             }else{
 
                 //send results to the user
                 alert(results);
 
                 //exit the fight loop
-                break;
+
             }
-        }
+
 
 
 
