@@ -84,7 +84,7 @@
                 fighter1text.innerHTML=fighters[0].name+": "+fighters[0].health;
 
                 //show fighter 2's name and health using innerhtml and don't use the alert
-                fighter1text.innerHTML=fighters[1].name+": "+fighters[1].health;
+                fighter2text.innerHTML=fighters[1].name+": "+fighters[1].health;
 
             }else{
 
