@@ -39,8 +39,8 @@
            var f2 = Math.floor(Math.random()*(fighters[1].damage-minDamage2) + minDamage2);
 
             //inflict damage to player
-            fighters[0].damage -= f1;
-            fighters[1].damage -= f2;
+            fighters[0].health -= f1;
+            fighters[1].health -= f2;
 
             // shows players health in the console log
             console.log(fighters[0].name+":"+fighters[0].health+"  "+fighters[1].name+":"+fighters[1].health);
@@ -54,7 +54,7 @@
                 //add to round number
                 round++;
                 // send info to user
-                alert(fighter1[0]+":"+fighter1[2]+" Round "+round+" is over "+fighter2[0]+":"+fighter2[2]);
+                alert(fighters[0].name+":"+fighters[0].health+" Round "+round+" is over "+fighters[1].name+":"+fighters[1].health);
             }else{
 
                 //send results to the user
@@ -78,16 +78,16 @@
         var result = "no winner";
 
         //create a conditional, if both players die
-        if(fighter1[2]<1&&fighter2[2]<1){
+        if(fighters[0].health<1&&fighters[1].health<1){
             result = "You both die!";
 
         //another conditional if player one dies
-        }else if(fighter1[2]<1){
-            result = fighter1[0]+" Dies.. "+fighter2[0]+" Wins!";
+        }else if(fighters[0].health<1){
+            result = fighters[0].name+" Dies.. "+fighters[1].name+" Wins!";
 
         //another conditional if player two dies
-        }else if(fighter2[2]<1){
-            result = fighter2[0]+" Dies.. "+fighter1[0]+" Wins!";
+        }else if(fighters[1].health<1){
+            result = fighters[1].name+" Dies.. "+fighters[0].name+" Wins!";
         }
 
         //send back the result of winner check
