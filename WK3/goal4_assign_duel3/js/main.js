@@ -6,7 +6,7 @@
     console.log("Fight!");
 
     //vars damage health and name
-    var round = 0;
+    var round = 1;
     var fighters=[{name:"Spiderman",damage:20,health:100}, {name:"Batman",damage:20,health:100}];
     var fighter1 = ["Spiderman",20,100];
     var fighter2 = ["Batman",20,100];
@@ -18,8 +18,11 @@
     var roundText = document.getElementById("round");
     var button = document.getElementById("fight_btn");
 
+    //sets the round text to Spiderman VS batman
     roundText.innerHTML=fighters[0].name+" VS "+fighters[1].name;
 
+
+    //listens to the button object to see if its clicked on... then runs the fight function
     button.addEventListener("click", fight, false);
 
 
@@ -29,7 +32,12 @@
 
 
 
+        //console log the round to make sure everything is working correctly
         console.log(round);
+
+        //use innerHTML to set the round text to the actual round number
+        roundText.innerHTML="Round "+round+" Over!";
+
         //alert player info to the screen... health and names
         alert(fighters[0].name+":"+fighters[0].health+" *Start* "+fighters[1].name+":"+fighters[1].health);
         //start a loop for the fight... don't go over 10 rounds
@@ -86,14 +94,20 @@
         //create a conditional, if both players die
         if(fighters[0].health<1&&fighters[1].health<1){
             result = "You both die!";
+            fighter1text.innerHTML="It's a tie";
+            fighter2text.innerHTML="";
 
         //another conditional if player one dies
         }else if(fighters[0].health<1){
             result = fighters[0].name+" Dies.. "+fighters[1].name+" Wins!";
+            fighter1text.innerHTML="";
+            fighter2text.innerHTML="You have WON the fight!";
 
         //another conditional if player two dies
         }else if(fighters[1].health<1){
             result = fighters[1].name+" Dies.. "+fighters[0].name+" Wins!";
+            fighter1text.innerHTML="You have WON the fight!";
+            fighter2text.innerHTML="";
         }
 
         //send back the result of winner check
