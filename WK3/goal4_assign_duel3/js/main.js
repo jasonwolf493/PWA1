@@ -21,8 +21,11 @@
     roundText.innerHTML="fdsafdsafdsfad";
 
 
+    button.addEventListener("click", fight, false);
+
+
     //creates the fight function
-    button.onclick=function fight(){
+    function fight(){
         console.log("in the fight function");
 
         //alert player info to the screen... health and names
