@@ -5,17 +5,26 @@
     //testing everything is working
     console.log("Fight!");
 
-    //vars damage health and name
+    //set up the vars below
+    //set the round number for the fight
     var round = 1;
+
+    // create and object for all the fighters
     var fighters=[{name:"Spiderman",damage:20,health:100}, {name:"Batman",damage:20,health:100}];
-    var fighter1 = ["Spiderman",20,100];
-    var fighter2 = ["Batman",20,100];
 
 
 
+
+    //grab the "p" tag of kabal using DOM
     var fighter1text = document.querySelector("#kabal").querySelector("p");
+
+    //grab the "p" tag of kratos
     var fighter2text = document.querySelector("#kratos").querySelector("p");
+
+    //grab the area for the round text using DOM
     var roundText = document.getElementById("round");
+
+    //Finally get the fight button
     var button = document.getElementById("fight_btn");
 
     //sets the round text to Spiderman VS batman
@@ -28,6 +37,7 @@
 
     //creates the fight function
     function fight(){
+        //console log that the user is in the fight function
         console.log("in the fight function");
 
 
@@ -39,7 +49,7 @@
         roundText.innerHTML="Round "+round+" Over!";
 
         //alert player info to the screen... health and names
-        alert(fighters[0].name+":"+fighters[0].health+" *Start* "+fighters[1].name+":"+fighters[1].health);
+        //alert(fighters[0].name+":"+fighters[0].health+" *Start* "+fighters[1].name+":"+fighters[1].health);
         //start a loop for the fight... don't go over 10 rounds
 
             //create minimum damage vars for each player
@@ -63,19 +73,29 @@
 
             //conditional check if the result is no winner
             if(results==="no winner"){
+
                 //add to round number
                 round++;
+
                 // send info to user
 
+
+                //show fighter1's name and health using innerhtml and don't use the alert
                 fighter1text.innerHTML=fighters[0].name+": "+fighters[0].health;
-               // alert(fighters[0].name+":"+fighters[0].health+" Round "+round+" is over "+fighters[1].name+":"+fighters[1].health);
+
+                //show fighter 2's name and health using innerhtml and don't use the alert
+                fighter1text.innerHTML=fighters[1].name+": "+fighters[1].health;
+
             }else{
 
                 //send results to the user
-                alert(results);
+                //alert(results);
 
-                //exit the fight loop
+                //remove the event listener so the button can no longer be clicked
+                button.removeEventListener("click",fight,false);
 
+                //change the button text to DONE!
+                document.querySelector(".buttonblue").innerHTML="DONE!!";
             }
 
 
@@ -97,17 +117,20 @@
             fighter1text.innerHTML="It's a tie";
             fighter2text.innerHTML="";
 
+
         //another conditional if player one dies
         }else if(fighters[0].health<1){
             result = fighters[0].name+" Dies.. "+fighters[1].name+" Wins!";
             fighter1text.innerHTML="";
             fighter2text.innerHTML="You have WON the fight!";
 
+
         //another conditional if player two dies
         }else if(fighters[1].health<1){
             result = fighters[1].name+" Dies.. "+fighters[0].name+" Wins!";
             fighter1text.innerHTML="You have WON the fight!";
             fighter2text.innerHTML="";
+
         }
 
         //send back the result of winner check
