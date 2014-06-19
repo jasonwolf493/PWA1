@@ -122,13 +122,13 @@
         }else if(fighters[0].health<1){
             result = fighters[0].name+" Dies.. "+fighters[1].name+" Wins!";
             fighter1text.innerHTML="";
-            fighter2text.innerHTML="You have WON the fight!";
+            fighter2text.innerHTML=fighters[1].name+" you have WON the fight!";
 
 
         //another conditional if player two dies
         }else if(fighters[1].health<1){
             result = fighters[1].name+" Dies.. "+fighters[0].name+" Wins!";
-            fighter1text.innerHTML="You have WON the fight!";
+            fighter1text.innerHTML=fighters[0].name+" you have WON the fight!";
             fighter2text.innerHTML="";
 
         }
@@ -139,9 +139,5 @@
     }
 
     console.log("before fight function");
-    //begins the fight
-    //fight();
-    //document.getElementsByClassName("buttonblue")
-    //button.onclick=fight();
 
 })();
