@@ -14,7 +14,7 @@
 	<key>BackgroundGraphic</key>
 	<dict>
 		<key>Bounds</key>
-		<string>{{0, 0}, {606, 788}}</string>
+		<string>{{0, 0}, {1120, 788}}</string>
 		<key>Class</key>
 		<string>SolidGraphic</string>
 		<key>ID</key>
@@ -38,7 +38,7 @@
 	<key>CanvasOrigin</key>
 	<string>{0, 0}</string>
 	<key>CanvasSize</key>
-	<string>{606, 788}</string>
+	<string>{1120, 788}</string>
 	<key>ColumnAlign</key>
 	<integer>1</integer>
 	<key>ColumnSpacing</key>
@@ -69,7 +69,7 @@
 			<array>
 				<string>{124.0360452405419, 715.35215299668198}</string>
 				<string>{365.42548837636696, 711.69706361561441}</string>
-				<string>{361.92297227098862, 526.4959128040415}</string>
+				<string>{381.93757198201672, 526.49402672085887}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -101,7 +101,7 @@
 			<key>Points</key>
 			<array>
 				<string>{124.0360452405419, 715.35215299668198}</string>
-				<string>{124.3559173840675, 638.30875539212207}</string>
+				<string>{137.83101857695181, 658.48590890574235}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -137,8 +137,8 @@
 			<integer>1203</integer>
 			<key>Points</key>
 			<array>
-				<string>{363.42763147950751, 606.05717922306599}</string>
-				<string>{250.98799678428091, 606.38846173048876}</string>
+				<string>{374.85926740463697, 605.88579429574179}</string>
+				<string>{273.49536274800829, 619.78789262795146}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -176,8 +176,8 @@
 			<integer>1202</integer>
 			<key>Points</key>
 			<array>
-				<string>{296.80873525471418, 430.19283389227212}</string>
-				<string>{341.30425366556773, 480.62108322426428}</string>
+				<string>{319.308732809981, 430.19283389259078}</string>
+				<string>{363.80424696208786, 480.6210832674434}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -213,8 +213,8 @@
 			<integer>1201</integer>
 			<key>Points</key>
 			<array>
-				<string>{361.48800591580357, 430.31791498140296}</string>
-				<string>{361.48800591580357, 480.49600217863116}</string>
+				<string>{383.98799117620098, 430.31791494413415}</string>
+				<string>{383.98799117620098, 480.49600221590003}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -250,8 +250,8 @@
 			<integer>1200</integer>
 			<key>Points</key>
 			<array>
-				<string>{431.30424767272768, 424.37092112763622}</string>
-				<string>{381.67175337368633, 480.62108330553889}</string>
+				<string>{453.8042469650689, 424.37092112738202}</string>
+				<string>{404.17175095896931, 480.62108326714923}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -277,7 +277,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{178.48799896240234, 562.4493408203125}, {72, 88.09332275390625}}</string>
+			<string>{{202, 562.4493408203125}, {71, 124.5506591796875}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -310,14 +310,14 @@
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
 If there is a winner display results\
-and exit}</string>
+and remove event listener}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{88.487998962402344, 575.1832447052002}, {72, 62.625514984130859}}</string>
+			<string>{{110.98799896240234, 575.1832447052002}, {74.012001037597656, 82.816757202148438}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -349,14 +349,14 @@ and exit}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-If there is no winner start new round}</string>
+If there is no winner return results and do nothing}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{133.48799896240234, 480.99600219726562}, {72, 45}}</string>
+			<string>{{155.98799896240234, 480.99600219726562}, {72, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -395,7 +395,7 @@ Run the winner check}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{120.82855224609374, 358.82074737548828}, {97.318893432617188, 85.350509643554688}}</string>
+			<string>{{143.32855224609375, 358.82074737548828}, {97.318893432617188, 85.350509643554688}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -434,7 +434,7 @@ deal a random amount of damage to each player}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{133.48799896240234, 253.1832447052002}, {72, 62.625514984130859}}</string>
+			<string>{{155.98799896240234, 253.1832447052002}, {72, 62.625514984130859}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -473,7 +473,7 @@ while rounds are less than ten}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{133.48799896240234, 164.99600219726562}, {72, 45}}</string>
+			<string>{{155.98799896240234, 164.99600219726562}, {101.01200103759766, 66.003997802734375}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -505,14 +505,53 @@ while rounds are less than ten}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-begin round}</string>
+when button is clicked begin round}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{325.48799896240234, 164.99600219726562}, {72, 45}}</string>
+			<string>{{43, 160.99200439453125}, {72, 45}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>FontInfo</key>
+			<dict>
+				<key>Color</key>
+				<dict>
+					<key>w</key>
+					<string>0</string>
+				</dict>
+				<key>Font</key>
+				<string>Helvetica</string>
+				<key>NSKern</key>
+				<real>0.0</real>
+				<key>Size</key>
+				<real>12</real>
+			</dict>
+			<key>ID</key>
+			<integer>1219</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict/>
+			<key>Text</key>
+			<dict>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Add event listener to button}</string>
+				<key>VerticalPad</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{347.98799896240234, 164.99600219726562}, {72, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -551,7 +590,7 @@ set no winner}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{325.48799896240234, 246.97753524780273}, {72, 75.036933898925781}}</string>
+			<string>{{347.98799896240234, 246.97753524780273}, {72, 75.036933898925781}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -590,7 +629,7 @@ Check if both players have died}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{415.48799896240234, 378.99600219726562}, {72, 45}}</string>
+			<string>{{437.98799896240234, 378.99600219726562}, {72, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -629,7 +668,7 @@ If true set you both die}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{325.48799896240234, 373.1740894317627}, {72, 56.643825531005859}}</string>
+			<string>{{347.98799896240234, 373.1740894317627}, {72, 56.643825531005859}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -668,7 +707,7 @@ Else if check if player two died}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{235.48799896240237, 373.1740894317627}, {72, 56.643825531005859}}</string>
+			<string>{{257.98799896240234, 373.1740894317627}, {72, 56.643825531005859}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -707,7 +746,7 @@ Else if check if player one died}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{325.48799896240234, 480.99600219726562}, {72, 45}}</string>
+			<string>{{347.98799896240234, 480.99600219726562}, {72, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -746,7 +785,7 @@ return results}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{325.48799896240234, 82.996002197265625}, {72, 45}}</string>
+			<string>{{347.98799896240234, 82.996002197265625}, {72, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -785,7 +824,7 @@ Winner Check}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{133.48799896240234, 82.996002197265625}, {72, 45}}</string>
+			<string>{{110.98799896240236, 82.996002197265625}, {72, 45}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -834,8 +873,8 @@ Fight function}</string>
 			<integer>1169</integer>
 			<key>Points</key>
 			<array>
-				<string>{174.19801416369398, 128.48582806058252}</string>
-				<string>{181.58738740658623, 164.55373799993046}</string>
+				<string>{161.66964496256082, 128.41703624156477}</string>
+				<string>{184.83087922996592, 164.57643139013669}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -867,8 +906,8 @@ Fight function}</string>
 			<integer>1170</integer>
 			<key>Points</key>
 			<array>
-				<string>{174.50146355772975, 210.48451986164508}</string>
-				<string>{183.71391988231287, 252.72690752054751}</string>
+				<string>{200.57935416691791, 231.49238201621685}</string>
+				<string>{196.8363321322054, 252.68895411003533}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -900,8 +939,8 @@ Fight function}</string>
 			<integer>1171</integer>
 			<key>Points</key>
 			<array>
-				<string>{176.38904276039204, 316.29738706184207}</string>
-				<string>{185.51509247121498, 358.35204250855594}</string>
+				<string>{193.40771362713272, 316.30826252333941}</string>
+				<string>{195.28270767690336, 358.32219694478164}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -933,8 +972,8 @@ Fight function}</string>
 			<integer>1172</integer>
 			<key>Points</key>
 			<array>
-				<string>{177.20937939058322, 444.66344530925187}</string>
-				<string>{183.63208581646762, 480.57047214767317}</string>
+				<string>{194.04790412309927, 444.67068892471917}</string>
+				<string>{195.75747796465171, 480.50258859407302}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -966,8 +1005,8 @@ Fight function}</string>
 			<integer>1174</integer>
 			<key>Points</key>
 			<array>
-				<string>{164.18526200863272, 526.48320708752374}</string>
-				<string>{153.03672254744316, 574.81178967718267}</string>
+				<string>{183.04317403187511, 526.4619109934938}</string>
+				<string>{164.24859946493447, 574.7171299296599}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -999,8 +1038,8 @@ Fight function}</string>
 			<integer>1184</integer>
 			<key>Points</key>
 			<array>
-				<string>{185.37376688977395, 526.406893536437}</string>
-				<string>{210.01963183612332, 561.95183768564482}</string>
+				<string>{200.64196642578179, 526.46389155323925}</string>
+				<string>{214.02431484461121, 561.98104586511067}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1032,8 +1071,8 @@ Fight function}</string>
 			<integer>1189</integer>
 			<key>Points</key>
 			<array>
-				<string>{356.40036349650001, 128.48418932118835}</string>
-				<string>{348.41588164240699, 164.56160960407075}</string>
+				<string>{384.97518993825679, 128.4955422624387}</string>
+				<string>{386.52053802481316, 164.49900673964191}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1065,8 +1104,8 @@ Fight function}</string>
 			<integer>1191</integer>
 			<key>Points</key>
 			<array>
-				<string>{359.38683876273262, 210.49392837085111}</string>
-				<string>{356.0988151730229, 246.48248544757385}</string>
+				<string>{384.82621142204277, 210.49567048309032}</string>
+				<string>{386.13758319065448, 246.47833255232771}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1098,8 +1137,8 @@ Fight function}</string>
 			<integer>1193</integer>
 			<key>Points</key>
 			<array>
-				<string>{389.5321441641928, 322.41647629324711}</string>
-				<string>{431.09958576130674, 378.62275681909989}</string>
+				<string>{413.44506109013929, 322.4093019610612}</string>
+				<string>{457.09792903370374, 378.59359694326014}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1131,8 +1170,8 @@ Fight function}</string>
 			<integer>1195</integer>
 			<key>Points</key>
 			<array>
-				<string>{330.09711540219115, 322.39955437262381}</string>
-				<string>{288.40367384904579, 372.74313690506978}</string>
+				<string>{355.33483148354986, 322.41338011641466}</string>
+				<string>{317.2697666002951, 372.78573255390876}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1164,8 +1203,8 @@ Fight function}</string>
 			<integer>1198</integer>
 			<key>Points</key>
 			<array>
-				<string>{359.28395365115671, 322.51363101233994}</string>
-				<string>{356.37549054808187, 372.68177869554125}</string>
+				<string>{384.50879098064672, 322.5144222566534}</string>
+				<string>{385.19590482312151, 372.67452797388347}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -1183,6 +1222,39 @@ Fight function}</string>
 			<dict>
 				<key>ID</key>
 				<integer>1190</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>Class</key>
+			<string>LineGraphic</string>
+			<key>Head</key>
+			<dict>
+				<key>ID</key>
+				<integer>1219</integer>
+			</dict>
+			<key>ID</key>
+			<integer>1218</integer>
+			<key>Points</key>
+			<array>
+				<string>{126.9861180670258, 128.37241267100464}</string>
+				<string>{98.795926542696819, 160.61390015996051}</string>
+			</array>
+			<key>Style</key>
+			<dict>
+				<key>stroke</key>
+				<dict>
+					<key>HeadArrow</key>
+					<string>0</string>
+					<key>Legacy</key>
+					<true/>
+					<key>TailArrow</key>
+					<string>0</string>
+				</dict>
+			</dict>
+			<key>Tail</key>
+			<dict>
+				<key>ID</key>
+				<integer>1167</integer>
 			</dict>
 		</dict>
 	</array>
@@ -1237,7 +1309,7 @@ Fight function}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-06-07 02:28:18 +0000</string>
+	<string>2014-06-19 20:23:08 +0000</string>
 	<key>Modifier</key>
 	<string>Jason Wolf</string>
 	<key>NotesVisible</key>
@@ -1315,7 +1387,7 @@ Fight function}</string>
 		<key>ExpandedCanvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{275, 230}, {746, 611}}</string>
+		<string>{{180, 25}, {1260, 853}}</string>
 		<key>ListView</key>
 		<false/>
 		<key>OutlineWidth</key>
@@ -1327,15 +1399,15 @@ Fight function}</string>
 		<key>SidebarWidth</key>
 		<integer>138</integer>
 		<key>VisibleRegion</key>
-		<string>{{-171.42904284742875, -10.429042847428756}, {948.85812015303179, 812.18484787933346}}</string>
+		<string>{{1, 1}, {1118, 759}}</string>
 		<key>Zoom</key>
-		<real>0.63655459880828857</real>
+		<real>1</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Canvas 1</string>
-				<real>0.63655459880828857</real>
-				<real>1.2731091976165771</real>
+				<real>1</real>
+				<real>8</real>
 			</array>
 		</array>
 	</dict>
